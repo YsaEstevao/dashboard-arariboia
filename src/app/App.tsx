@@ -90,7 +90,7 @@ function KpiCard({
           <Icon className="w-5 h-5" />
         </span>
       </div>
-      <p className="text-3xl font-bold text-slate-800 tracking-tight">{value}</p>
+      <p className="text-3xl font-bold text-gray-400 tracking-tight">{value}</p>
       {sub && <p className="text-xs text-slate-400">{sub}</p>}
     </div>
   );
